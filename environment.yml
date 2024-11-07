@@ -1,0 +1,14 @@
+name: covid-variant
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - google-cloud-bigquery
+  - jupyter
+  - plotly
+  - dash
+  - pytest
